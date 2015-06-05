@@ -17,4 +17,3 @@ pip install pyudev
 pip install texttable
 pip install traceback2
 pip install ecdsa
-pip install paramiko
