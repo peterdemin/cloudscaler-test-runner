@@ -4,7 +4,8 @@ set -ev
 
 pip install argparse
 pip install astroid
-pip install coverage
+pip install coverage==3.7.1
+pip install pytest-cov
 pip install kazoo
 pip install linecache2
 pip install logilab-common
