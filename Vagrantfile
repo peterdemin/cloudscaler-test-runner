@@ -10,4 +10,5 @@ Vagrant.configure(2) do |config|
   end
   config.vm.provision "shell", path: "yum-install.sh"
   config.vm.provision "shell", path: "pip-install.sh"
+  config.vm.provision "shell", path: "export-pythonpath.sh"
 end
